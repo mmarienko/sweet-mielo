@@ -4,7 +4,6 @@ if (window.NodeList && !NodeList.prototype.forEach) {
    NodeList.prototype.forEach = Array.prototype.forEach;
 }
 
-/*!
 
 AOS.init({
   disable: function n() {
@@ -13,7 +12,6 @@ AOS.init({
   offset: 100, // offset (in px) from the original trigger point
 });
 
-*/
 
 let slider__swiper = new Swiper ('.slider__swiper', {
    effect: 'fade',
@@ -44,10 +42,6 @@ let slider__swiper = new Swiper ('.slider__swiper', {
     }
   }
  })
-
-
-
-
 
 
 // Burger
