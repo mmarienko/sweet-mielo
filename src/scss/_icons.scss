@@ -1,0 +1,74 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?557789') format('ttf'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.woff?557789') format('woff'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.svg?557789##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon__"], [class*=" icon__"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon__chevron-right {
+  &:before {
+    content: $icon__chevron-right;
+  }
+}
+.icon__close {
+  &:before {
+    content: $icon__close;
+  }
+}
+.icon__bee {
+  &:before {
+    content: $icon__bee;
+  }
+}
+.icon__honey {
+  &:before {
+    content: $icon__honey;
+  }
+}
+.icon__honey-2 {
+  &:before {
+    content: $icon__honey-2;
+  }
+}
+.icon__honeycomb {
+  &:before {
+    content: $icon__honeycomb;
+  }
+}
+.icon__star {
+  &:before {
+    content: $icon__star;
+  }
+}
+.icon__shopping-bag {
+  &:before {
+    content: $icon__shopping-bag;
+  }
+}
+.icon__search {
+  &:before {
+    content: $icon__search;
+  }
+}
+

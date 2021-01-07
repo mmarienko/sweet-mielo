@@ -1,0 +1,12 @@
+@import "reset";
+@import "vars";
+@import "global";
+@import "mixins";
+@import "fonts";
+@import "icons";
+
+@import "modules/header";
+@import "modules/footer";
+@import "modules/burger";
+
+@import "pages/index";
