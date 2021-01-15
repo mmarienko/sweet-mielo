@@ -1,5 +1,5 @@
 # sweet-mielo
-An example of my layout and WP
+Example of my code
 
 1. Layout:
 >  * [src](https://github.com/zMarienko/sweet-mielo)
