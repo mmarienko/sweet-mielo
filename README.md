@@ -1,5 +1,5 @@
 # sweet-mielo
-especially for Dmytro Okolychnyi
+An example of my layout and WP
 
 1. Layout:
 >  * [src](https://github.com/zMarienko/sweet-mielo)
